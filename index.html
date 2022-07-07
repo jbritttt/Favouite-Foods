@@ -13,18 +13,19 @@
     <h1 class= "text-danger">Sushi</h1>
     <h2 class= "text-danger">Your Favourite Japanese Cuisine</h2>
 </header>
-<nav class="navbar px-5 py-4">
+<nav class="navbar px-5 py-4 fs-3">
   <a class="nav-link" href="index.html">Home</a>
-  <a class="nav-link" href="recipe.html">Recipes</a>             <!-- Add page links here -->
-  <a class="nav-link" href="recipe.html">Order</a>
+  <a class="nav-link" href="recipe.html">Recipe</a>             <!-- Add page links here -->
+  <a class="nav-link" href="ingredients.html">Order</a>
+
 </nav>
-<body>
-    <h1 class="text-center text-danger p-5">Order From our menu below</h1>
+<body class="container-md" style="min-height: 100vh;">
+    <h1 class="text-center text-danger p-5">Order from our menu below</h1>
     <div class="text-center">
-    <img src="https://thumbs.dreamstime.com/b/tasty-appetizing-multicolored-sushi-rolls-set-wide-assortme-assortment-fillings-served-black-stone-slate-restaurant-115719905.jpg" height="300px" width="1200">
+    <img src="https://thumbs.dreamstime.com/b/tasty-appetizing-multicolored-sushi-rolls-set-wide-assortme-assortment-fillings-served-black-stone-slate-restaurant-115719905.jpg" class="rounded img-fluid max-width: 800px;" alt="picture of sushi"  >
 </div>
     <div class="d-grid gap-2">
-        <button class="btn btn-danger btn-lg  " type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+        <button class="btn btn-danger btn-lg fs-2 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="true" aria-controls="collapseWidthExample">
           Sashimi
         </button>
     </div>
@@ -32,10 +33,13 @@
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 m-3">
                 <div class="col">
                     <article class="card shadow-lg">
-                       
-                            <h3 class="card-header g-0">Salmon</h3>
+                        <img
+                        src="./images/Salmon-Sashimi.jpg"
+                        alt="salmon sashimi"
+                        />
+                            <h4 class="card-header g-0 ">Salmon</h4>
                         <section class="btn-group">
-                            <button type="button" class="btn btn-primary">
+                            <button type="button" class="btn btn-danger">
                                 Add to basket
                             </button>
                         </section>
@@ -44,10 +48,13 @@
     
               <div class="col">
                     <article class="card shadow-lg">
-                      
-                            <h3 class="card-header">Tuna</h3>
+                        <img
+                        src="images\tuna-sashimi.png"
+                        alt="tuna sashimi"
+                        />
+                            <h4 class="card-header">Tuna</h4>
                         <section class="btn-group">
-                            <button type="button" class="btn btn-primary">
+                            <button type="button" class="btn btn-danger">
                                 Add to basket
                             </button>
                         </section>
@@ -56,10 +63,13 @@
     
                 <div class="col">
                     <article class="card shadow-lg">
-                     
-                            <h3 class="card-header">Eel</h3>
+                        <img
+                        src="images\scallop-shashimi.png"
+                        alt="scallop sashimi"
+                        />
+                            <h4 class="card-header">Scallops</h4>
                         <section class="btn-group">
-                            <button type="button" class="btn btn-primary">
+                            <button type="button" class="btn btn-danger">
                                 Add to basket
                             </button>
                         </section>
@@ -68,7 +78,7 @@
                 </div>
         </div>
         <div class="d-grid gap-2">
-            <button class="btn btn-danger btn-lg  " type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+            <button class="btn btn-danger btn-lg fs-2 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
               Temaki
             </button>
         </div>
@@ -77,10 +87,13 @@
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 m-3">
                     <div class="col">
                         <article class="card shadow-lg">
-                           
-                                <h3 class="card-header g-0">Crab</h3>
+                            <img
+                        src="./images/crab-temaki.png"
+                        alt="crab temaki"
+                        />
+                                <h4 class="card-header g-0">Crab</h4>
                             <section class="btn-group">
-                                <button type="button" class="btn btn-secondary">
+                                <button type="button" class="btn btn-danger">
                                     Add to basket
                                 </button>
                             </section>
@@ -89,10 +102,13 @@
         
                   <div class="col">
                         <article class="card shadow-lg">
-                          
-                                <h3 class="card-header">Cucumber</h3>
+                            <img
+                            src="./images/prawn-temaki.png"
+                            alt="prawn temaki"
+                            />
+                                <h4 class="card-header">Prawn</h4>
                             <section class="btn-group">
-                                <button type="button" class="btn btn-secondary">
+                                <button type="button" class="btn btn-danger">
                                     Add to basket
                                 </button>
                             </section>
@@ -101,10 +117,13 @@
         
                     <div class="col">
                         <article class="card shadow-lg">
-                           
-                                <h3 class="card-header">Tuna</h3>
+                            <img
+                        src="./images/eel-temaki.png"
+                        alt="eel temaki"
+                        />
+                                <h4 class="card-header">Eel</h4>
                             <section class="btn-group">
-                                <button type="button" class="btn btn-secondary">
+                                <button type="button" class="btn btn-danger">
                                     Add to basket
                                 </button>
                             </section>
@@ -113,7 +132,7 @@
                     </div>
             </div>
             <div class="d-grid gap-2">
-                <button class="btn btn-danger btn-lg  " type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                <button class="btn btn-danger btn-lg fs-2 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
                   Rolls
                 </button>
             </div>
@@ -122,10 +141,13 @@
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 m-3">
                         <div class="col">
                             <article class="card shadow-lg">
-                              
-                                    <h3 class="card-header g-0">Rainbow Roll</h3>
+                                <img
+                                src="./images/rainbow-roll.png"
+                                alt="rainbow roll"
+                                />
+                                    <h4 class="card-header g-0">Rainbow Roll</h4>
                                 <section class="btn-group">
-                                    <button type="button" class="btn btn-primary">
+                                    <button type="button" class="btn btn-danger">
                                         Add to basket
                                     </button>
                                 </section>
@@ -134,10 +156,13 @@
             
                       <div class="col">
                             <article class="card shadow-lg">
-                               
-                                    <h3 class="card-header">Cart Roll</h3>
+                                <img
+                                src="./images/california-roll.png"
+                                alt="california roll"
+                                />
+                                    <h4 class="card-header">California Roll</h4>
                                 <section class="btn-group">
-                                    <button type="button" class="btn btn-primary">
+                                    <button type="button" class="btn btn-danger">
                                         Add to basket
                                     </button>
                                 </section>
@@ -146,10 +171,13 @@
             
                         <div class="col">
                             <article class="card shadow-lg">
-                               
-                                    <h3 class="card-header">Barrel Roll</h3>
+                                <img
+                                src="./images/dragon-roll.png"
+                                alt="dragon roll"
+                                />
+                                    <h4 class="card-header">Dragon Roll</h4>
                                 <section class="btn-group">
-                                    <button type="button" class="btn btn-primary">
+                                    <button type="button" class="btn btn-danger">
                                         Add to basket
                                     </button>
                                 </section>
@@ -158,7 +186,7 @@
                         </div>
                 </div>
                 <div class="d-grid gap-2">
-                    <button class="btn btn-danger btn-lg  " type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                    <button class="btn btn-danger btn-lg fs-2 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
                       Nigiri
                     </button>
                 </div>
@@ -167,10 +195,13 @@
                         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 m-3">
                             <div class="col">
                                 <article class="card shadow-lg">
-                                   
-                                        <h3 class="card-header g-0">Crab</h3>
+                                    <img
+                                    src="./images/salmon-nigiri.png"
+                                    alt="salmon Nigiri"
+                                    />
+                                        <h4 class="card-header g-0">Salmon</h4>
                                     <section class="btn-group">
-                                        <button type="button" class="btn btn-secondary">
+                                        <button type="button" class="btn btn-danger">
                                             Add to basket
                                         </button>
                                     </section>
@@ -179,10 +210,13 @@
                 
                           <div class="col">
                                 <article class="card shadow-lg">
-                                  
-                                        <h3 class="card-header">Cucumber</h3>
+                                    <img
+                                    src="images\shrimp-nigiri.png"
+                                        alt="shrimp nigiri"
+                                    />
+                                        <h4 class="card-header">Shrimp</h4>
                                     <section class="btn-group">
-                                        <button type="button" class="btn btn-secondary">
+                                        <button type="button" class="btn btn-danger">
                                             Add to basket
                                         </button>
                                     </section>
@@ -191,10 +225,13 @@
                 
                             <div class="col">
                                 <article class="card shadow-lg">
-                                   
-                                        <h3 class="card-header">Tuna</h3>
+                                    <img
+                                    src="images\tuna-nigiri.png"
+                                    alt="tuna nigiri"
+                                    />
+                                        <h4 class="card-header">Tuna</h4>
                                     <section class="btn-group">
-                                        <button type="button" class="btn btn-secondary">
+                                        <button type="button" class="btn btn-danger">
                                             Add to basket
                                         </button>
                                     </section>
@@ -202,50 +239,13 @@
                             </div>
                             </div>
                     </div>
-                    <div class="d-grid gap-2">
-                        <button class="btn btn-danger btn-lg  " type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
-                          Dumplings
-                        </button>
-                    </div>
-                    
-                        <div class="collapse collapse-vertical" id="collapseWidthExample">
-                            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 m-3">
-                                <div class="col">
-                                    <article class="card shadow-lg">
-                                       
-                                            <h3 class="card-header g-0">Gyoza</h3>
-                                        <section class="btn-group">
-                                            <button type="button" class="btn btn-primary">
-                                                Add to basket
-                                            </button>
-                                        </section>
-                                    </article>
-                                </div>
-                    
-                              <div class="col">
-                                    <article class="card shadow-lg">
-                                      
-                                            <h3 class="card-header">Crab Gyoza</h3>
-                                        <section class="btn-group">
-                                            <button type="button" class="btn btn-primary">
-                                                Add to basket
-                                            </button>
-                                        </section>
-                                    </article>
-                                </div>
-                    
-                                <div class="col">
-                                    <article class="card shadow-lg">
-                                       
-                                            <h3 class="card-header">Veg Gyoza</h3>
-                                        <section class="btn-group">
-                                            <button type="button" class="btn btn-primary">
-                                                Add to basket
-                                            </button>
-                                        </section>
-                                    </article>
-                                </div>
-                                </div>
+
                         </div>
+
+    <footer class="absolute-bottom">
+        <div class="card-footer text-center">
+            <small class="text-muted " >WEBSITE DEVELOPED BY CALLUM AND JONNY</small>
+          </div>
+    </footer>
 </body>
 </html>
